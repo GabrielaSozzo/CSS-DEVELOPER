@@ -1,0 +1,175 @@
+@import url(./reset.css);
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  background-color: #fff;
+}
+
+.menu__left {
+  display: flex;
+  align-items: center;
+}
+
+.menu__haburguer {
+  margin-right: 15px;
+}
+
+.menu__logo img {
+  width: 90px;
+  height: 20px;
+  top: 18px;
+  left: 80px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.menu__center {
+  width: 404px;
+  height: 40px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+}
+
+.search-bar {
+  width: 100%;
+  height: 40px;
+  display: flex; /* Alinha o input e o botão em linha */
+  border: 1px solid #ccc; /* Borda ao redor da barra de pesquisa */
+}
+
+.search-bar button img {
+  width: 80%;
+}
+
+.search-bar input {
+  border: none; /* Remove a borda do input */
+  padding: 10px; /* Espaçamento interno do input */
+  outline: none; /* Remove o contorno ao focar */
+  flex: 1; /* Faz o input ocupar o espaço restante */
+}
+
+.search-bar button {
+  color: #fff; /* Cor do texto do botão */
+  border: none; /* Remove a borda do botão */
+  padding: 10px; /* Espaçamento interno do botão */
+  cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+}
+
+.menu__right {
+  display: flex;
+  width: Hug (130px) px;
+  height: Hug (34px) px;
+  gap: 24px;
+  opacity: 0px;
+}
+
+.video {
+  width: 24px;
+  height: 24px;
+  padding: 5px 1px 5px 1px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.bell {
+  width: 24px;
+  height: 24px;
+  padding: 5px 1px 5px 1px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.avatar {
+  width: 34px;
+  height: 34px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+/* main seção a esquerda */
+
+main {
+  padding-top: 60px;
+  display: flex; /* Coloca as seções lado a lado */
+}
+
+.seção__esquerda {
+  flex: 60%;
+  padding: 20px 0px 20px 20px;
+
+  width: 952px;
+  height: 746px;
+  top: 84px;
+  left: 75px;
+  gap: 16px;
+  opacity: 0px;
+}
+
+h2 {
+  padding: 5px 0px 20px 0px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23.44px;
+  text-align: left;
+}
+
+h3 {
+  padding-top: 20px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16.41px;
+  text-align: left;
+}
+
+p {
+  width: 800px;
+  height: 64px;
+  padding-top: 20px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.41px;
+  text-align: left;
+}
+
+.imagem__principal img {
+  border-radius: 8px;
+  width: 100%;
+}
+
+/* main seção a direita */
+
+.seção__direita {
+  flex: 20%;
+  padding: 20px;
+
+  width: 160px;
+  height: 746px;
+  top: 84px;
+  left: 1052px;
+  gap: 16px;
+  opacity: 0px;
+}
+
+.videos {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.videos .video {
+  width: 100%;
+  height: auto;
+}
