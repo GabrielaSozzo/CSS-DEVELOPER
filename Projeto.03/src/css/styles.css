@@ -1,0 +1,157 @@
+@import url(./reset.css);
+
+/* header */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  background-color: #fff;
+}
+
+.menu__left {
+  display: flex;
+  align-items: center;
+}
+
+.menu__haburguer {
+  margin-right: 15px;
+}
+
+.menu__logo img {
+  width: 90px;
+  height: 20px;
+  top: 18px;
+  left: 80px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.menu__center {
+  width: 404px;
+  height: 40px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+}
+
+.search-bar {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  border: 1px solid #ccc;
+}
+
+.search-bar button img {
+  width: 80%;
+}
+
+.search-bar input {
+  border: none;
+  padding: 10px;
+  outline: none;
+  flex: 1;
+}
+
+.search-bar button {
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.menu__right {
+  display: flex;
+  width: Hug (130px) px;
+  height: Hug (34px) px;
+  gap: 24px;
+  opacity: 0px;
+}
+
+.video {
+  width: 24px;
+  height: 24px;
+  padding: 5px 1px 5px 1px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.bell {
+  width: 24px;
+  height: 24px;
+  padding: 5px 1px 5px 1px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.avatar {
+  width: 34px;
+  height: 34px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+/* links sidebar */
+
+.sidebar {
+  position: fixed;
+  width: 218px;
+  height: 968px;
+  top: 56px;
+  padding: 24px 0px 0px 0px;
+  gap: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+#active {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.41px;
+  text-align: left;
+}
+
+.item__sidebar {
+  padding-left: 24px;
+}
+
+.sidebar a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #000;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.41px;
+  text-align: left;
+}
+
+.item__sidebar img {
+  width: 24px;
+  height: 24px;
+  margin-right: 15px;
+}
+
+/* conteudo principal - main */
+
+.container {
+  padding-top: 70px;
+  padding-left: 250px;
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px;
+  grid-template-rows: 270px 270px 270px;
+}
+
+.details {
+  padding-top: 10px;
+}
