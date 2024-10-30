@@ -160,6 +160,114 @@ footer img {
 
 /* Responsividade */
 
-@media (max-width: 428px) {
-  
+@media (max-width: 500px) {
+  header {
+    width: 500px;
+    height: 500px;
+  }
+
+  .header__content {
+    margin-left: 25px;
+  }
+
+  .header__background {
+    width: 428px;
+    height: 506px;
+    top: -1px;
+    gap: 0px;
+    opacity: 0px;
+  }
+
+  .button__baixar,
+  .button__abrir {
+    width: 380px;
+    height: 54px;
+    border-radius: 28px;
+    margin-left: 0;
+  }
+
+  h1 {
+    width: 278px;
+    height: 64px;
+    font-family: Luckiest Guy;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .header__content p {
+    width: 381px;
+    height: 132px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+    text-align: left;
+  }
+
+  .section {
+    flex-direction: column;
+  }
+
+  .section img {
+    width: 379px;
+    height: 252px;
+  }
+
+  .section__text h3 {
+    width: 370px;
+    height: 99px;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32.68px;
+    text-align: left;
+  }
+
+  .section__text p {
+    width: 378px;
+    height: 88px;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+    text-align: left;
+  }
+
+  .section__invertida {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .section__invertida h3 {
+    height: 50px;
+  }
+
+  #terceira__section {
+    height: 50px;
+  }
+
+  .ultima__section img {
+    width: 379px;
+    height: 252px;
+  }
+
+  .ultima__section h2 {
+    width: 376px;
+    height: 64px;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+  }
+
+  .ultima__section p {
+    width: 378px;
+    height: 110px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+    text-align: left;
+  }
 }
